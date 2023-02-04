@@ -1,0 +1,64 @@
+
+———————————
+install node (NPM should have been installed along with Node)
+https://nodejs.org/en/download/
+
+test node installation
+node -v
+
+test NPM installation
+node -v
+
+
+———————————
+install NVM
+- on a Mac
+
+curl https://raw.githubusercontent.com/creationix/nvm/v0.12.1/install.sh | bash
+
+or:
+
+wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.12.1/install.sh | bash
+
+after that run:
+
+source ~/.profile
+
+after that restart your terminal.
+
+
+- on a Windows
+
+https://github.com/coreybutler/nvm-windows
+
+
+
+test NVM installation
+nvm -v
+
+
+
+———————————
+install Gulp
+
+sudo npm install -g gulp
+
+test Gulp installation
+gulp -v
+
+
+———————————
+Once you have Node.js, NPM, and Gulp installed, can initialize your project by running the following in your project folder
+
+npm init
+
+this will create a package.json file in the root of your folder
+
+
+Add Gulp devDependencies
+
+npm install --save-dev gulp
+
+
+Install Gulp Plugins
+npm install --save-dev gulp-connect gulp-jshint gulp-bower gulp-rename gulp-concat gulp-uglify gulp-minify-html gulp-imagemin gulp-sass node-bourbon node-neat browserify vinyl-source-stream vinyl-buffer

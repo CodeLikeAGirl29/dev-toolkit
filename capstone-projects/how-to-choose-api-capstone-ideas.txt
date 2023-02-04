@@ -1,0 +1,18 @@
+From Project hunt (https://www.thinkful.com/project-hunt/frontend-api-hack/new) choose 2-3 topics:
+
+- travel  (sub-topic: travel to active volcanos)
+      - from www.example1-website.com (I like the header)
+      - from www.example2-website.com (I like the search results)
+      - from www.example3-website.com (I like the map)
+
+- gardening  (sub-topic: gardening for people with disabilities)
+      - from www.example4-website.com (I like the design)
+      - from www.example5-website.com (I like the responsive)
+      - from www.example3-website.com (I like the landing page)
+
+- cooking   (sub-topic: organic cooking)
+      - from www.example6-website.com (I like the search functionality)
+      - from www.example7-website.com (I like the buttons)
+      - from www.example8-website.com (I like the output)
+
+After that, in the next session we will brain storm the technical viability of each idea.

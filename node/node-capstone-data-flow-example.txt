@@ -1,0 +1,8 @@
+Node capstone data flow example
+1. HTML file -> button
+2. CLIENT.js file -> jQuery trigger (take the input from the user)
+3. CLIENT.js file ->JavaScript Function -> make the api call to the SERVER.js api end point
+4. SERVER.js file -> api end point connects to the MODELS.js in order to make CRUD operations (create, read, update, delete) to the database
+5. MODELS.js -> create the schema to connect to the DB collection
+6. SERVER.js file -> the results from the DB crud operations is sent as a response to the CLIENT.js file
+7. CLIENT.js file ->JavaScript Function -> with the api call results display them to HTML file
